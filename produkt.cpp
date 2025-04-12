@@ -57,6 +57,7 @@ public:
         cout << "Cena netto: " << cenaNetto << " zł" << endl;
         cout << "Stawka VAT: " << getStawkaVAT() << "%" << endl;
         cout << "Cena brutto: " << obliczCeneBrutto() << " zł" << endl;
+        cout << endl;
     }
 };
 
@@ -68,7 +69,6 @@ int main()
 
     cout << "Produkt ustawiony manualnie:" << endl;
     produktDomyslny.wyswietlDane();
-    cout << endl;
 
     Produkt produkt("Klawiatura", 100.0, 23);
     cout << "Produkt ustawiony przy tworzeniu:" << endl;
